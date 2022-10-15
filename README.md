@@ -19,11 +19,16 @@
 - [x] <b>[GET] /pessoas</b> - retorna uma lista de pessoas cadastradas
 
 ### Exemplo de requests:
-```json
-    /pessoa POST: { "name": "John Doe", "email": "john@doe.com", "birthDate": "2000-01-01" }
 
-    /pessoa/1 PUT: { "name": "John Moe", "email": "john@moe.com", "birthDate": "2001-01-01" }
+##### /pessoa POST:
+```json
+{ "name": "John Doe", "email": "john@doe.com", "birthDate": "2000-01-01" }
 ```
+##### /pessoa/1 PUT:
+```json
+{"name": "John Moe", "email": "john@moe.com", "birthDate": "2001-01-01" }
+```
+
 ## Como rodar o projeto?
 
 Baixe o <a href="https://www.postgresql.org/download/">PostgreSQL</a> <br>
